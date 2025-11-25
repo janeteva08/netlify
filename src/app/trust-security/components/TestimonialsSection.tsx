@@ -155,7 +155,7 @@ const TestimonialsSection = () => {
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-muted rounded-full">
             <Icon name="UserGroupIcon" size={20} className="text-primary" />
             <span className="text-sm font-semibold text-foreground">
-              Join 10,000+ satisfied customers protecting their digital assets
+              Join 5000+ satisfied customers protecting their digital assets
             </span>
           </div>
         </div>

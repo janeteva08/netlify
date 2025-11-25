@@ -15,11 +15,7 @@ const Footer = () => {
       { label: 'Trust & Security', href: '/trust-security' },
       { label: 'Support Center', href: '/support-center' }
     ],
-    legal: [
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Cookie Policy', href: '#' }
-    ]
+   
   };
 
   return (
@@ -119,9 +115,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground uppercase tracking-wider mb-4">
-              Legal
-            </h3>
+            
             <ul className="space-y-3">
               {footerLinks?.legal?.map((link) => (
                 <li key={link?.href}>

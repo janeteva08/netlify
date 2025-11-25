@@ -130,20 +130,7 @@ const Footer = ({ className = '' }: FooterProps) => {
             <p className="text-sm text-muted-foreground text-center md:text-left">
               &copy; {currentYear} ShieldxSSL. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6 text-sm">
-              <Link
-                href="/trust-security"
-                className="text-muted-foreground hover:text-primary transition-colors duration-300"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/trust-security"
-                className="text-muted-foreground hover:text-primary transition-colors duration-300"
-              >
-                Terms of Service
-              </Link>
-            </div>
+          
           </div>
         </div>
       </div>
