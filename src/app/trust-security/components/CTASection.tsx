@@ -40,15 +40,15 @@ const CTASection = () => {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-8">
             <div className="flex items-center gap-2 text-white/90">
               <Icon name="CheckCircleIcon" size={20} variant="solid" />
-              <span className="text-sm font-medium">24/7 Support</span>
+            
             </div>
             <div className="flex items-center gap-2 text-white/90">
               <Icon name="CheckCircleIcon" size={20} variant="solid" />
-              <span className="text-sm font-medium">99.9% Uptime</span>
+              
             </div>
             <div className="flex items-center gap-2 text-white/90">
               <Icon name="CheckCircleIcon" size={20} variant="solid" />
-              <span className="text-sm font-medium">30-Day Money Back</span>
+              
             </div>
           </div>
         </div>
@@ -58,3 +58,4 @@ const CTASection = () => {
 };
 
 export default CTASection;
+

@@ -15,36 +15,9 @@ interface IncidentRecord {
 }
 
 const incidentRecords: IncidentRecord[] = [
-  {
-    id: 1,
-    date: "November 15, 2024",
-    type: "Attempted DDoS Attack",
-    severity: "Medium",
-    description: "Detected unusual traffic patterns indicating a potential DDoS attack targeting our certificate validation servers.",
-    resolution: "Our automated defense systems successfully mitigated the attack. Traffic was rerouted through our CDN partners, and all services remained operational throughout the incident.",
-    timeToResolve: "12 minutes",
-    status: "Resolved"
-  },
-  {
-    id: 2,
-    date: "September 3, 2024",
-    type: "Phishing Attempt",
-    severity: "Low",
-    description: "Identified phishing emails impersonating SHIeLdxssl sent to a small number of customers.",
-    resolution: "Immediately notified affected customers, worked with email providers to block malicious domains, and published security advisory on our website.",
-    timeToResolve: "2 hours",
-    status: "Resolved"
-  },
-  {
-    id: 3,
-    date: "July 22, 2024",
-    type: "Certificate Validation Delay",
-    severity: "Low",
-    description: "Temporary slowdown in certificate validation processing due to increased verification requests.",
-    resolution: "Scaled up validation infrastructure and optimized processing algorithms. All pending validations were completed within standard timeframes.",
-    timeToResolve: "45 minutes",
-    status: "Resolved"
-  }
+  
+  
+  
 ];
 
 const SecurityIncidentReport = () => {
@@ -78,30 +51,9 @@ const SecurityIncidentReport = () => {
   return (
     <section className="py-16 lg:py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Security Incident Transparency
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We believe in complete transparency. Here's our record of security incidents, how we responded, and the measures we took to prevent future occurrences.
-          </p>
-        </div>
+        
 
-        <div className="mb-8 bg-success/10 border border-success/20 rounded-xl p-6 lg:p-8">
-          <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-12 h-12 bg-success/20 rounded-lg flex items-center justify-center">
-              <Icon name="ShieldCheckIcon" size={24} className="text-success" variant="solid" />
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-foreground mb-2">
-                Zero Data Breaches
-              </h3>
-              <p className="text-muted-foreground">
-                Since our founding in 2018, SHIeLdxssl has maintained a perfect record with zero customer data breaches. Our multi-layered security approach and proactive monitoring ensure your information remains protected at all times.
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
         <div className="space-y-4">
           {incidentRecords.map((incident) => (
@@ -188,35 +140,7 @@ const SecurityIncidentReport = () => {
           ))}
         </div>
 
-        <div className="mt-12 bg-muted/50 border border-border rounded-xl p-6 lg:p-8">
-          <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Icon name="BellAlertIcon" size={24} className="text-primary" />
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-foreground mb-2">
-                Incident Notification Policy
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                We are committed to transparency and will notify affected customers within 24 hours of any security incident that may impact their data or services. All incidents are thoroughly investigated, documented, and used to strengthen our security measures.
-              </p>
-              <div className="flex flex-wrap gap-4 text-sm">
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="ClockIcon" size={16} className="text-primary" />
-                  <span className="font-semibold">24-hour notification</span>
-                </span>
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="DocumentTextIcon" size={16} className="text-primary" />
-                  <span className="font-semibold">Full documentation</span>
-                </span>
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="ShieldCheckIcon" size={16} className="text-primary" />
-                  <span className="font-semibold">Preventive measures</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
+  
       </div>
     </section>
   );

@@ -24,14 +24,7 @@ export default function CheckSSLStatusPage() {
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} SSL ShieldxSSL. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6">
-              <a href="/support-center" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
-                Support Center
-              </a>
-              <a href="/trust-security" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">
-                Trust & Security
-              </a>
-            </div>
+           
           </div>
         </div>
       </footer>

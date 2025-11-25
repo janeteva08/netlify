@@ -12,45 +12,7 @@ interface AuditReport {
 }
 
 const auditReports: AuditReport[] = [
-  {
-    id: 1,
-    title: "Annual Security Penetration Test",
-    date: "October 2024",
-    auditor: "CyberSec Solutions Inc.",
-    status: "Passed",
-    downloadUrl: "#",
-    highlights: [
-      "Zero critical vulnerabilities identified",
-      "All medium-risk issues resolved within 48 hours",
-      "Infrastructure security rated 9.8/10"
-    ]
-  },
-  {
-    id: 2,
-    title: "SOC 2 Type II Audit Report",
-    date: "September 2024",
-    auditor: "Deloitte & Touche LLP",
-    status: "Excellent",
-    downloadUrl: "#",
-    highlights: [
-      "100% compliance with security controls",
-      "No exceptions or deviations noted",
-      "Exemplary incident response procedures"
-    ]
-  },
-  {
-    id: 3,
-    title: "PCI DSS Quarterly Scan",
-    date: "November 2024",
-    auditor: "Trustwave Holdings Inc.",
-    status: "Compliant",
-    downloadUrl: "#",
-    highlights: [
-      "All systems passed vulnerability scans",
-      "Network segmentation properly implemented",
-      "Encryption standards exceed requirements"
-    ]
-  }
+
 ];
 
 const SecurityAudits = () => {
@@ -58,12 +20,8 @@ const SecurityAudits = () => {
     <section className="py-16 lg:py-24 bg-muted/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Third-Party Security Audits
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Independent verification of our security practices through regular third-party audits and penetration testing.
-          </p>
+          
+          
         </div>
 
         <div className="space-y-6">
@@ -114,48 +72,14 @@ const SecurityAudits = () => {
                 </div>
 
                 <div className="lg:ml-6">
-                  <a
-                    href={report.downloadUrl}
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors duration-300"
-                  >
-                    <Icon name="ArrowDownTrayIcon" size={20} />
-                    Download Report
-                  </a>
+                  
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 bg-trust-light border border-trust-blue/20 rounded-xl p-6 lg:p-8">
-          <div className="flex items-start gap-4">
-            <div className="flex-shrink-0 w-12 h-12 bg-trust-blue/10 rounded-lg flex items-center justify-center">
-              <Icon name="ShieldCheckIcon" size={24} className="text-trust-blue" variant="solid" />
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-foreground mb-2">
-                Continuous Security Monitoring
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Our security infrastructure is monitored 24/7 by automated systems and security experts. We conduct quarterly penetration tests and maintain real-time threat detection to ensure your data remains protected.
-              </p>
-              <div className="flex flex-wrap gap-4 text-sm">
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="ClockIcon" size={16} className="text-trust-blue" />
-                  <span className="font-semibold">24/7 Monitoring</span>
-                </span>
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="BoltIcon" size={16} className="text-trust-blue" />
-                  <span className="font-semibold">Real-time Alerts</span>
-                </span>
-                <span className="flex items-center gap-2 text-foreground">
-                  <Icon name="ChartBarIcon" size={16} className="text-trust-blue" />
-                  <span className="font-semibold">Quarterly Testing</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

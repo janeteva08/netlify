@@ -57,48 +57,7 @@ const partners: Partner[] = [
 const PartnerLogos = () => {
   return (
     <section className="py-16 lg:py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Trusted Technology Partners
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We collaborate with industry-leading technology companies to deliver the most secure and reliable SSL certificate solutions.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-          {partners.map((partner) =>
-          <div
-            key={partner.id}
-            className="bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center">
-
-              <div className="relative w-full h-20 mb-3 rounded-lg overflow-hidden bg-muted">
-                <AppImage
-                src={partner.logo}
-                alt={partner.alt}
-                className="w-full h-full object-contain p-2" />
-
-              </div>
-              <h3 className="text-sm font-semibold text-foreground text-center mb-1">
-                {partner.name}
-              </h3>
-              <p className="text-xs text-muted-foreground text-center">
-                {partner.category}
-              </p>
-            </div>
-          )}
-        </div>
-
-        <div className="mt-12 bg-trust-light border border-trust-blue/20 rounded-xl p-6 lg:p-8 text-center">
-          <h3 className="text-xl font-bold text-foreground mb-3">
-            Partnership Excellence
-          </h3>
-          <p className="text-muted-foreground max-w-3xl mx-auto">
-            Our strategic partnerships with leading technology providers ensure that you receive SSL certificates backed by the most trusted names in cybersecurity. These collaborations enable us to offer enterprise-grade security solutions with seamless integration across all major platforms.
-          </p>
-        </div>
-      </div>
+    
     </section>);
 
 };

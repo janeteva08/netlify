@@ -12,14 +12,9 @@ export default function FooterSection() {
     ],
     support: [
       { label: 'Support Center', href: '/support-center' },
-      { label: 'Knowledge Base', href: '/support-center' },
       { label: 'Contact Us', href: '/support-center' }
     ],
-    company: [
-      { label: 'Trust & Security', href: '/trust-security' },
-      { label: 'Privacy Policy', href: '/trust-security' },
-      { label: 'Terms of Service', href: '/trust-security' }
-    ]
+    
   };
 
   return (
@@ -104,9 +99,7 @@ export default function FooterSection() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4 uppercase tracking-wider">
-              Company
-            </h4>
+            
             <ul className="space-y-3">
               {footerLinks?.company?.map((link) => (
                 <li key={link?.href}>
@@ -127,20 +120,7 @@ export default function FooterSection() {
             <p className="text-sm text-muted-foreground">
               &copy; {currentYear} ShieldxSSL. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6">
-              <Link
-                href="/trust-security"
-                className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/trust-security"
-                className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
-              >
-                Terms of Service
-              </Link>
-            </div>
+           
           </div>
         </div>
       </div>

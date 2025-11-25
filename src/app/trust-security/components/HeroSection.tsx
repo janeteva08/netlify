@@ -33,7 +33,7 @@ const HeroSection = () => {
             <div className="hidden sm:block w-px h-12 bg-white/30" />
             <div className="text-center">
               <div className="text-4xl font-bold text-white mb-2">24/7</div>
-              <div className="text-white/80 text-sm">Security Monitoring</div>
+              <div className="text-white/80 text-sm">Free Installtion </div>
             </div>
           </div>
         </div>
