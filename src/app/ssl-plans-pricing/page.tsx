@@ -22,7 +22,7 @@ export default function SSLPlansPage() {
     { text: 'Domain Validation (DV)', included: true },
     { text: 'Standard Trust Level ', included: true },
     { text: '24/7 customer support', included: true },
-    { text: 'Issued within 130 minutes', included: true },
+    { text: 'Issued within 30 minutes', included: true },
     { text: 'Compatible with all browsers', included: true },
     { text: 'Free reissues', included: true },
     { text: 'Multiple domain protection', included: false }]
