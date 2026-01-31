@@ -66,7 +66,7 @@ export default function SSLPlansPage() {
     { text: 'Free reissues', included: true },
     { text: 'Protects *.example.com', included: true },
     { text: 'Perfect for SaaS platforms', included: true },
-    { text: 'Dedicated support manager', included: true }]
+    
 
   }];
 
@@ -165,7 +165,6 @@ export default function SSLPlansPage() {
   {
     name: 'Sarah Mitchell',
     role: 'E-commerce Manager',
-    company: 'TechGear Online',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1a9e8814c-1763296696290.png",
     alt: 'Professional woman with brown hair in business attire smiling at camera',
     rating: 5,
@@ -174,7 +173,6 @@ export default function SSLPlansPage() {
   {
     name: 'Michael Chen',
     role: 'CTO',
-    company: 'CloudSync Solutions',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_183fc715d-1763301362797.png",
     alt: 'Asian man with glasses in navy suit smiling confidently',
     rating: 5,
@@ -183,7 +181,6 @@ export default function SSLPlansPage() {
   {
     name: 'Emily Rodriguez',
     role: 'Digital Marketing Director',
-    company: 'BrightPath Agency',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_11504e941-1763295994346.png",
     alt: 'Hispanic woman with long dark hair in professional blazer smiling warmly',
     rating: 5,
@@ -192,7 +189,6 @@ export default function SSLPlansPage() {
   {
     name: 'David Thompson',
     role: 'Small Business Owner',
-    company: 'Thompson\'s Hardware',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_191a43c60-1763294769851.png",
     alt: 'Middle-aged man with gray beard in casual business attire smiling',
     rating: 5,
@@ -201,7 +197,6 @@ export default function SSLPlansPage() {
   {
     name: 'Jennifer Park',
     role: 'Web Developer',
-    company: 'Freelance',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1a57c74dc-1763294365205.png",
     alt: 'Young Asian woman with short black hair in modern office setting',
     rating: 5,
@@ -210,7 +205,6 @@ export default function SSLPlansPage() {
   {
     name: 'Robert Anderson',
     role: 'IT Manager',
-    company: 'MedTech Systems',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_12aee3bb1-1763293581826.png",
     alt: 'Professional man in dark suit with confident expression',
     rating: 5,

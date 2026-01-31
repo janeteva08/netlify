@@ -69,7 +69,6 @@ const PlanComparisonSection = ({ className = '' }: PlanComparisonSectionProps) =
         '99.9% Browser compatibility',
         '24/7 priority support/Free Installation',
         'Free reissuance',
-        'Dedicated support manager',
       ],
       cta: 'Enterprise Choice',
       href: '/order-ssl-certificate',
