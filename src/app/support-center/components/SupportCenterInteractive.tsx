@@ -41,10 +41,10 @@ export default function SupportCenterInteractive() {
     {
       id: 1,
       title: "Email Support",
-      description: "Get detailed assistance via email. Send email to support@shieldxssl",
+      description: "Get detailed assistance via email. Send email to support@shieldxssl.com",
       icon: "EnvelopeIcon",
       availability: "24/7 Available",
-      action: "email",
+      
       buttonText: "Send Email"
     },
     
@@ -80,7 +80,7 @@ export default function SupportCenterInteractive() {
     {
       id: 6,
       question: "How do I generate a Certificate Signing Request (CSR)?",
-      answer: "A CSR can be generated through your web hosting control panel (cPanel, Plesk) or server command line. We provide detailed CSR generation guides for all major platforms in our knowledge base. You can also use our free CSR generator tool for assistance.",
+      answer: "A CSR can be generated through your web hosting control panel (cPanel, Plesk) or server command line. We provide detailed CSR generation guides for all major platforms in our knowledge base. Please send us an email for assistance.",
       category: "Technical"
     },
     {
@@ -89,13 +89,7 @@ export default function SupportCenterInteractive() {
       answer: "DV (Domain Validated) certificates verify domain ownership only and are issued quickly. OV (Organization Validated) certificates verify your organization's identity and take longer. EV (Extended Validation) certificates provide the highest level of validation, displaying your company name in the browser address bar.",
       category: "General"
     },
-    {
-      id: 8,
-      question: "Can I upgrade my SSL certificate after purchase?",
-      answer: "Yes, you can upgrade to a higher-level certificate at any time. Contact our support team, and we'll help you upgrade while crediting the remaining time on your current certificate toward the new one.",
-      category: "General"
-    }
-
+    
   ];
 
   const searchResults: SearchResult[] = [
