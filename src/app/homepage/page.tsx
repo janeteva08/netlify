@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: 'ShieldxSSL - SSL Security Made Simple',
-  description: 'Protect your website with enterprise-grade SSL certificates. Trusted by 5000+ websites worldwide. Get instant issuance, 24/7 support, and 30-day money-back guarantee.',
+  description: 'Protect your website with enterprise grade SSL certificates. Trusted by 5000+ websites worldwide. Get instant issuance, 24/7 support.',
 };
 
 export default function HomePage() {

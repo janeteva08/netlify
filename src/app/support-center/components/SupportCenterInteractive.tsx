@@ -76,12 +76,7 @@ export default function SupportCenterInteractive() {
       answer: " You can send us an email at support@shieldxssl.com for any kind of support.",
       category: "General"
     },
-    {
-      id: 5,
-      question: "Do you offer refunds if I'm not satisfied?",
-      answer: "Yes, we offer a 30-day money-back guarantee for all SSL certificates. If you're not completely satisfied within the first 30 days, contact our support team for a full refund. Note that the certificate must not have been issued for a refund to be processed.",
-      category: "Billing"
-    },
+    
     {
       id: 6,
       question: "How do I generate a Certificate Signing Request (CSR)?",

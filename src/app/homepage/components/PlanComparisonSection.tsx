@@ -84,7 +84,7 @@ const PlanComparisonSection = ({ className = '' }: PlanComparisonSectionProps) =
             Choose Your Protection Plan
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Simple, transparent pricing with no hidden fees. All plans include our industry-leading support and 30-day money-back guarantee.
+            Simple, transparent pricing with no hidden fees. All plans include our industry leading support.
           </p>
         </div>
 
